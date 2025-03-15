@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: cadetblue;
+}
+
+.header h1 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: blueviolet;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.leftcolumn {
+    float: left;
+    width: 33%;
+    background: burlywood;
+    padding: 20px;
+}
+
+.centercolumn {
+    float: inline-start;
+    width: 34%;
+    background: beige;
+    padding: 20px;
+}
+
+.rightcolumn {
+    float: right;
+    width: 33%;
+    background: burlywood;
+    padding: 20px;
+}
+
+.footer {
+    padding: 20px;
+    background: cadetblue;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    background-color: aqua;
+    padding: 20px;
+    margin-top: 20px;
+}

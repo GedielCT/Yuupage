@@ -11,15 +11,16 @@ button.Pg_In {
 }
 
 button.Pg_Lo {
-	width: 190px;
+	width: 100%;
 	height: 60px;
 	font-family: Arial;
 	color: white;
-	text-align: left;
+	text-align: center;
 	border: 0px;
+	padding: 5px;
 	background-color: blue;
 	font-size: 200%;
-	margin-bottom: 20px;
+	margin: 10px;
 }
 
 form.Estilo {

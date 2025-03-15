@@ -87,3 +87,24 @@ img.displayed{
     margin-left: auto;
     margin-right: auto;
 }
+
+.alternada {
+	list-style: upper-alpha;
+	font-size: 30px;
+	color: blueviolet;
+	width: fit-content;
+}
+
+/* nth-child = seleciona os filhos */
+/* odd = impar, even = par */
+.alternada li:nth-child(odd) {
+	background-color: blue;
+}
+
+.alternada li:nth-child(even) {
+	background-color: chocolate;
+}
+
+.alternada li:hover {
+	font-weight: bolder;
+}

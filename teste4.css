@@ -108,3 +108,7 @@ img.displayed{
 .alternada li:hover {
 	font-weight: bolder;
 }
+
+.problema{
+	color: red;
+}
